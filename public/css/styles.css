@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+@import '~@fortawesome/fontawesome-free/scss/brands';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: 0;
+}
+header, main, footer {
+    padding-left: 300px;
+  }
+
+  @media only screen and (max-width : 992px) {
+    header, main, footer {
+      padding-left: 0;
+    }
+  }
+
+  body {
+      background-color: #ECF0F1;
+      align-items: center;
+      justify-content: center;
+
+      height: 100vh;
+      margin: 0;
+  }
+
+  #slide-out {
+      background-color: #ECF0F1;
+  }
+
+  #containers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #containers2 {
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #btncarousel {
+    color: black;
+
+  }
+
+
+  /* Carousel */
+
+  /* NAVBAR */
+
+  a {
+      text-decoration: none;
+      text-align: center;
+      color: rgb(28, 100, 208);
+  }
+
+  #navbar {
+    background-color: #0c2461;
+}
+
+  #h1Dash {
+      text-align: center;
+  }
+
+  h3 {
+      text-align: center;
+  }
+
+  #cardDash {
+      text-align: center;
+  }
+
+  #vipexclusive:hover {
+      color: rgb(213, 186, 29);
+  }
+
+  .strongG {
+      color: #e58e26;
+  }
+
+ .h5G{
+     color: #0a3d62;
+ }
+
+/* From uiverse.io by @cuatrofender */
+.buttonComprar {
+    border: none;
+    font-family: sans-serif;
+    font-size: 17px;
+    background: transparent;
+    color: #006bb3;
+    border: solid 1px rgba(0, 107, 179, 0.2);
+    padding: 10px;
+    border-radius: 4px;
+    transition-duration: 0.2s;
+   }
+
+   .buttonComprar:before {
+    content: "»";
+    opacity: 0;
+    margin-left: -15px;
+    transition-duration: 0.2s;
+   }
+
+   .buttonComprar:hover:before {
+    margin-left: 0px;
+    opacity: 1;
+   }
+
+   .buttonComprar:hover {
+    color: black;
+    background: rgba(0, 0, 0, 0.02);
+    border: solid 1px gainsboro;
+   }
